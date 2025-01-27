@@ -51,7 +51,7 @@ while i < (#script + 1) do
 
 		arrow = arrow - 1
 	elseif c == ',' then
-		write(('(?) Cell #%d is requesting input: '):format(arrow))
+		write(('(?) Cell #%d is requesting input:  '):format(arrow))
 		
 		cells[arrow] = read():match('%S'):byte()
 	elseif c == '.' then
