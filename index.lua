@@ -45,7 +45,7 @@ while i < (#script + 1) do
 
 		cells[arrow] = cells[arrow] or 0
 	elseif c == '<' then
-		if arrow < 1 0 then
+		if arrow < 1 then
 			error('(!) Program tried to access an impossible cell (cell #0).')
 		end
 
